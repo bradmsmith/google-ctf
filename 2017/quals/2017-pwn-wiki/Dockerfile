@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:12.5
 
 RUN set -e -x ;\
         groupadd -g 1337 user ;\
