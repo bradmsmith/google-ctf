@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM debian
+FROM debian:12.5
 
 ENV LANG C.UTF-8
 ENV LANGUAGE C.UTF-8
