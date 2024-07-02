@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:12.6
 LABEL maintainer "rjamet@"
 
 ENV LANG C.UTF-8
