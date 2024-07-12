@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 RUN set -e -x; \
         groupadd -g 1337 user; \
         useradd -g 1337 -u 1337 -m user
