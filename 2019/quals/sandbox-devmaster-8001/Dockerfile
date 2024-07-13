@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 RUN set -e -x; \
         apt-get -y update; \
         apt-get -y upgrade; \
